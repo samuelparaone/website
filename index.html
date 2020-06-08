@@ -25,8 +25,7 @@
 
 body {
 
-background-color:#212121
-
+background-color:#000000
   }
 
  
@@ -87,6 +86,8 @@ margin: 0 auto;
 
 color: white;
 
+padding: 25px;
+
 margin: 0px 0px 20px 20px;
 
 width: 45%;
@@ -94,7 +95,7 @@ width: 45%;
 text-align: center;
 
 float: left;
-
+background-color: #212121
 }
 
  
@@ -105,16 +106,16 @@ float: left;
 
 color: white;
 
-margin: 10px 20px;
+margin: 0px 20px;
 
-padding: 20px;
+padding: 2px;
 
 width:45%;
 
 float: right;
 
 text-align: center;
-
+background-color: #212121
 }
 
  
@@ -141,7 +142,7 @@ text-align: center;
 
   background: #e7e7e7;
 
-  color: black;
+  color: #fffff;
 
 }
 
@@ -153,36 +154,21 @@ text-align: center;
 
   background: #4CAF50;
 
-  color: black;
+  color: #fffff;
 
 }
 
-/*For Tablet*/
-@media only screen and (max-width:790px) { 
-
-br,
-h3,
-p{ 
-font-size: 100%;
-}
+ 
+#top:hover {
+background-color:#212121 ;
 }
  
-/*For phone*/
-@media only screen and (max-width: 360px){
-
-br,
-h3,
-p{ 
-font-size: 150%;
-}
-
- }
 
   </style>
 
  
 
-  
+ 
 
   </head>
 
@@ -191,21 +177,32 @@ font-size: 150%;
   <header>
 
 
- <img class="logo" width="212" height="41"  src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mc2a3f3b2e46055d935efb36d8a86e21a1582670348064"/>
+ <nav class="navbar navbar-expand-sm  navbar-dark">
+  <!-- Brand/logo -->
+  <a id="top" class="navbar-brand" href="http://www.dota2.com/play/">
+  <img src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mc2a3f3b2e46055d935efb36d8a86e21a1582670348064" alt="dota 2" style="width:155px;height:46px;border:0;"/></a>
+ 
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a id="top"class="nav-link" href="https://letsplay.live/">
+      <img   src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/M035b04292fee58e9a7a8d4cb5d908da61582670339294" alt="dota 2" style="width:100px;height:46px;border:0;"/></a>
+    </li>
+    <li class="nav-item">
+      <a id="top" class="nav-link" href="https://hsl.letsplay.live/">
+       <img src=" https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mbf68e5993ff92f84a2f18a2562aeb89f1582670354696" alt="dota 2" style="width:100px;height:42px;border:0;"/></a>
+  </ul>
+</nav>
 
  
-
-<img class="logo2" width="162" height="81" src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/M8df2a6b56c48883f9820d8f0a495a3091582670135743"/>
-
-  
 
   </header>
 
  
 
-  <div class="one"> 
-
- <img width="120" height="60" src=" https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mbf68e5993ff92f84a2f18a2562aeb89f1582670354696">
+  <div class="one">
+<a href="">
+ <img width="120" height="60" src=" https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mbf68e5993ff92f84a2f18a2562aeb89f1582670354696"></a>
 
 <br><p>
 
@@ -220,7 +217,7 @@ font-size: 150%;
   <img width="120" height="60"  src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/M035b04292fee58e9a7a8d4cb5d908da61582670339294 "/><br><br>
 
 
-  
+ 
 
 <p>LetsPlay.Live, Australasia’s leading esports tournament platform & broadcaster, are delighted to announce High School League Season 2 for 2019.</p>
 
@@ -228,10 +225,17 @@ font-size: 150%;
 
   <p>Registrations for this season are now open for high school students across ANZ, with the opportunity for more than one team per school to compete. The first round of the 10 week tournament starts on Monday 5th August 2019. The grand finals are on 7th October 2019 where the top 2 teams will battle it out in the best of three rounds.</p>
 
-    
+   
 
 </div><div class="two">
 
+<video width="300" height="240" controls>
+
+  <source src="" type="video/mp4">
+
+  <source src="" type="video/ogg">
+
+</video>
 
  
 
@@ -265,13 +269,11 @@ font-size: 150%;
 
 <br>
 
-<br<<button onclick="window.location.href='https://letsplay.live/register/';" class="btn green">REGISTER NOW</button>
+<br<<button class="btn green">REGISTER NOW</button>
 
 </div>
 
  
-
-
  
 
 <footer>created by sam</footer>
