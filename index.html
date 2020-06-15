@@ -268,7 +268,33 @@ background-color:#212121 ;
 
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+  background-color: #212121
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: white;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #212529;
+}
+
+#table {
+ color: white;
+}
+
+#table:hover {
+color: #2ed98c
+}
  
 
   </style>
@@ -277,7 +303,22 @@ background-color:#212121 ;
 
 
  
-
+<script>
+function showUser(str) {
+  if (str=="") {
+    document.getElementById("txtHint").innerHTML="";
+    return;
+  }
+  var xmlhttp=new XMLHttpRequest();
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("txtHint").innerHTML=this.responseText;
+    }
+  }
+  xmlhttp.open("GET","getuser.php?q="+str,true);
+  xmlhttp.send();
+}
+</script>
 
  
 
@@ -470,8 +511,72 @@ background-color:#212121 ;
 
 <br><a href="https://letsplay.live/register/"<button class="btn green">REGISTER NOW</button></a>
 
- 
+ <form>
+<select name="users" onchange="showUser(this.value)">
+<option value="">Select a team:</option>
+<option value="1"><a href="https://letsplay.live/team/254383/Crossfire/">Crossfire</a></option>
+<option value="2"><a href="https://letsplay.live/team/256320/Team-Oracle.AU/">Team Oracle.AU</a></option>
+<option value="3"><a href="https://letsplay.live/team/254444/Neet-Uprising/">Neet Uprising</a></option>
+<option value="4"><a href="https://letsplay.live/team/258914/ffyv2/">ffyv2</a></option>
+<option value="5"><a href="https://letsplay.live/team/254284/Australian-Gaming-Network/">Australian Gaming Network</a></option>
+<option value="6"><a href="https://letsplay.live/team/255617/Internal-Discord/">Internal Discord</a></option>
+<option value="7"><a href="https://letsplay.live/team/259085/ToOnz-Reborn/">ToOnz` Reborn</a></option>
+</select>
+</form>
+<br>
 
+<h2>ANZ Dota 2020: Season 2: LPL PRO</h2>
+
+<table>
+  <tr>
+  <th>ranks</th>
+    <th>team</th>
+    <th>won</th>
+    <th>lost</th>
+  </tr>
+  <tr>
+  <td>1st</td>
+    <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/254383/Crossfire/">Crossfire</a></td>
+    <td>2</td>
+    <td>0</td>
+  </tr>
+  <tr>
+  <td>2nd</td>
+    <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/256320/Team-Oracle.AU/">Team Oracle.AU</a></td>
+    <td>2</td>
+    <td>0</td>
+  </tr>
+  <tr>
+  <td>3rd</td>
+    <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/254444/Neet-Uprising/">Neet Uprising</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+  <td>4th</td>
+    <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/258914/ffyv2/">ffyv2</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+  <td>5th</td>
+    <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/254284/Australian-Gaming-Network/">Australian Gaming Network</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+  <td>6th</td>
+    <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/255617/Internal-Discord/">Internal Discord</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+  <td>7th</td>
+    <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/259085/ToOnz-Reborn/">ToOnz` Reborn</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
 </div>
 
  
