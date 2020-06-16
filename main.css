@@ -1,8 +1,9 @@
 
 
-body {
-    color: #000000;   
-}
+html {
+    background: #000000 no-repeat center fixed;
+    background-size: cover;
+  }
 
 
 
