@@ -1,409 +1,293 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
+<html>
 
 <head>
 
+    <title>Title</title>
 
+    <!-- Required meta tags -->
 
-  <title>Title</title>
+    <meta charset="utf-8">
 
-
-
-  <!-- Required meta tags -->
-
-
-
-  <meta charset="utf-8">
-
-
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-
-
-
-  <!-- Bootstrap CSS -->
-
-
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="main.css">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script>
-    function showUser(str) {
-      if (str == "") {
-        document.getElementById("txtHint").innerHTML = "";
-        return;
-      }
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-          document.getElementById("txtHint").innerHTML = this.responseText;
-        }
-      }
-      xmlhttp.open("GET", "getuser.php?q=" + str, true);
-      xmlhttp.send();
-    }
-  </script>
-
-
-
-</head>
-
-
-
-<body>
-
-
-
-  <header>
-
-
-
-
-
-    <nav class="navbar navbar-expand-sm  navbar-dark">
-
-      <!-- Brand/logo -->
-
-      <a id="top" class="navbar-brand" href="http://www.dota2.com/play/">
-
-        <img
-          src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mc2a3f3b2e46055d935efb36d8a86e21a1582670348064"
-          alt="dota 2" style="width:150px;height:46px;border:0;" /></a>
-
-
-      <!-- Links -->
-
-      <ul class="navbar-nav">
-
-        <li class="nav-item">
-
-          <a id="top" class="nav-link" href="https://letsplay.live/">
-
-            <img
-              src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/M035b04292fee58e9a7a8d4cb5d908da61582670339294"
-              alt="dota 2" style="width:100px;height:46px;border:0;" /></a>
-
-        </li>
-
-        <li class="nav-item">
-
-          <a id="top" class="nav-link" href="https://hsl.letsplay.live/">
-
-            <img
-              src=" https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mbf68e5993ff92f84a2f18a2562aeb89f1582670354696"
-              alt="dota 2" style="width:100px;height:42px;border:0;" /></a>
-
-      </ul>
-
-    </nav>
-
-
-
-
-
-
-  </header>
-
-
-
-
-
-
-  <div class="one">
-
-    <a href="">
-
-      <img width="120" height="60"
-        src=" https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mbf68e5993ff92f84a2f18a2562aeb89f1582670354696"></a>
-
-
-
-    <br>
-    <p>
-
-
-
-      <h3>HLS SESSION 3
-
-
-
-        <br>DOTA2
-
-
-
-        <br>TOURNAMENT
-
-
-
-        <br>2019 </h3>
-    </p>
-
-
-
-    <img width="120" height="60"
-      src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/M035b04292fee58e9a7a8d4cb5d908da61582670339294 " /><br><br>
-
-
-
-
-
-
-
-
-    <p>LetsPlay.Live, Australasia’s leading esports tournament platform & broadcaster, are delighted to announce High
-      School League Season 2 for 2019.</p>
-
-
-
-    <p> HSL hopes to have more schools from Australia and New Zealand participating in competitive esports tournaments.
-      Dota 2 HSL will be broadcast every week on Twitch.tv/HighSchoolLeague where everyone can view the tournament and
-      cheer on their teams </p>
-
-
-
-    <p>Registrations for this season are now open for high school students across ANZ, with the opportunity for more
-      than one team per school to compete. The first round of the 10 week tournament starts on Monday 5th August 2019.
-      The grand finals are on 7th October 2019 where the top 2 teams will battle it out in the best of three rounds.</p>
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
  
 
-    <iframe frameborder="0" height="240" width="320"
-  src="https://www.youtube.com/watch?v=FRMntd72oWA&t=1s">
-  </iframe>
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Title</title>
+ 
+
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-sm  navbar-dark fixed-top">
+
+    <!-- Brand/logo -->
+
+    <a id="top" class="navbar-brand" href="http://www.dota2.com/play/">
+
+      <img
+        src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mc2a3f3b2e46055d935efb36d8a86e21a1582670348064"
+        alt="dota 2" style="width:150px;height:46px;border:0;" /></a>
+
+
+    <!-- Links -->
+
+    <ul class="navbar-nav">
+
+      <li class="nav-item">
+
+        <a id="top" class="nav-link" href="https://letsplay.live/">
+
+          <img
+            src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/M035b04292fee58e9a7a8d4cb5d908da61582670339294"
+            alt="dota 2" style="width:100px;height:46px;border:0;" /></a>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a id="top" class="nav-link" href="https://hsl.letsplay.live/">
+
+          <img
+            src=" https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mbf68e5993ff92f84a2f18a2562aeb89f1582670354696"
+            alt="dota 2" style="width:100px;height:42px;border:0;" /></a>
+
+    </ul>
+
+
+
+</header>
+
+
+
+<div class="one"> 
+
+  <a href="https://hsl.letsplay.live/">
+    <img width="120" height="60" 
+      src=" https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mbf68e5993ff92f84a2f18a2562aeb89f1582670354696"></a>
+
+<br><p>
+
+<h3>HLS SESSION 3
+
+<br>DOTA2
+
+<br>TOURNAMENT
+
+<br>2019 </h3></p>
+
+  <a href="https://letsplay.live/">
+  <img width="120" height="60"
+ src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/M035b04292fee58e9a7a8d4cb5d908da61582670339294 "/></a><br><br>
 
 
 
 
+<p>LetsPlay.Live, Australasia’s leading esports tournament platform & broadcaster, are delighted to announce High School League Season 2 for 2019.</p>
 
+<p> HSL hopes to have more schools from Australia and New Zealand participating in competitive esports tournaments. Dota 2 HSL will be broadcast every week on Twitch.tv/HighSchoolLeague where everyone can view the tournament and cheer on their teams </p>
 
-
-    <h3>Key Dates</h3>
-
-
-
-    <br>Registrations Open: 17th July 2019
-
-
-
-    <br>Registrations Close: 31st July 2019
-
-
-
-    <br>Week One: 5th August 2019
-
-
-
-    <br>Week Two: 11th August 2019
-
-
-
-    <br>Week Three: 19th August 2019
-
-
-
-    <br>Week Four: 26th August 2019
-
-
-
-    <br>Week Five: 2nd September 2019
-
-
-
-    <br>Week Six: 9th September 2019
-
-
-
-    <br>Week Seven: 16th September 2019
-
-
-
-    <br>Semi Final 1: 23rd September 2019
-
-
-
-    <br>Semi Final 2: 30th September 2019
-
-
-
-    <br>Grand Final (Live on SKY Sport): 7th October 2019
-
-
-
-    <br>
-
-
-
-    <br>
-
-
-
-    <br><a href="https://letsplay.live/register/" <button class="btn green">REGISTER NOW</button></a>
-
-    <form>
-      <select name="users" onchange="showUser(this.value)">
-        <option value="">Select a team:</option>
-        <option value="1"><a href="https://letsplay.live/team/254383/Crossfire/">Crossfire</a></option>
-        <option value="2"><a href="https://letsplay.live/team/256320/Team-Oracle.AU/">Team Oracle.AU</a></option>
-        <option value="3"><a href="https://letsplay.live/team/254444/Neet-Uprising/">Neet Uprising</a></option>
-        <option value="4"><a href="https://letsplay.live/team/258914/ffyv2/">ffyv2</a></option>
-        <option value="5"><a href="https://letsplay.live/team/254284/Australian-Gaming-Network/">Australian Gaming
-            Network</a></option>
-        <option value="6"><a href="https://letsplay.live/team/255617/Internal-Discord/">Internal Discord</a></option>
-        <option value="7"><a href="https://letsplay.live/team/259085/ToOnz-Reborn/">ToOnz` Reborn</a></option>
-      </select>
-    </form>
-    <br>
-
-    <h2>ANZ Dota 2020: Season 2: LPL PRO</h2>
-
-    <table>
-      <tr>
-        <th>ranks</th>
-        <th>team</th>
-        <th>won</th>
-        <th>lost</th>
-      </tr>
-      <tr>
-        <td>1st</td>
-        <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/254383/Crossfire/">Crossfire</a>
-        </td>
-        <td>2</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <td>2nd</td>
-        <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/256320/Team-Oracle.AU/">Team
-            Oracle.AU</a></td>
-        <td>2</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <td>3rd</td>
-        <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/254444/Neet-Uprising/">Neet
-            Uprising</td>
-        <td>1</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <td>4th</td>
-        <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/258914/ffyv2/">ffyv2</td>
-        <td>1</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <td>5th</td>
-        <td><a id="table" style="text-decoration:none"
-            href="https://letsplay.live/team/254284/Australian-Gaming-Network/">Australian Gaming Network</td>
-        <td>0</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>6th</td>
-        <td><a id="table" style="text-decoration:none"
-            href="https://letsplay.live/team/255617/Internal-Discord/">Internal Discord</td>
-        <td>0</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>7th</td>
-        <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/259085/ToOnz-Reborn/">ToOnz`
-            Reborn</td>
-        <td>0</td>
-        <td>0</td>
-      </tr>
-    </table>
-  
+<p>Registrations for this season are now open for high school students across ANZ, with the opportunity for more than one team per school to compete. The first round of the 10 week tournament starts on Monday 5th August 2019. The grand finals are on 7th October 2019 where the top 2 teams will battle it out in the best of three rounds.</p>
 
   
-  </div>
+
+</div><div class="two">
+
+<video width="300" height="240" controls>
+
+<source src="" type="video/mp4">
+
+<source src="" type="video/ogg">
+
+</video>
 
 
 
+<h3>Key Dates</h3>
+
+<br>Registrations Open: 17th July 2019
+
+<br>Registrations Close: 31st July 2019
+
+<br>Week One: 5th August 2019
+
+<br>Week Two: 11th August 2019
+
+<br>Week Three: 19th August 2019
+
+<br>Week Four: 26th August 2019
+
+<br>Week Five: 2nd September 2019
+
+<br>Week Six: 9th September 2019
+
+<br>Week Seven: 16th September 2019
+
+<br>Semi Final 1: 23rd September 2019
+
+<br>Semi Final 2: 30th September 2019
+
+<br>Grand Final (Live on SKY Sport): 7th October 2019
+
+<br>
+
+<br>
+
+<br><a href="https://letsplay.live/register/" <button class="btn green">REGISTER NOW</button></a>
+
+</div>
+
+
+<div>
+<form>
+    <select name="users" onchange="showUser(this.value)">
+      <option value="">Select a team:</option>
+      <option value="1"><a href="https://letsplay.live/team/254383/Crossfire/">Crossfire</a></option>
+      <option value="2"><a href="https://letsplay.live/team/256320/Team-Oracle.AU/">Team Oracle.AU</a></option>
+      <option value="3"><a href="https://letsplay.live/team/254444/Neet-Uprising/">Neet Uprising</a></option>
+      <option value="4"><a href="https://letsplay.live/team/258914/ffyv2/">ffyv2</a></option>
+      <option value="5"><a href="https://letsplay.live/team/254284/Australian-Gaming-Network/">Australian Gaming
+          Network</a></option>
+      <option value="6"><a href="https://letsplay.live/team/255617/Internal-Discord/">Internal Discord</a></option>
+      <option value="7"><a href="https://letsplay.live/team/259085/ToOnz-Reborn/">ToOnz` Reborn</a></option>
+    </select>
+  </form>
+  <br>
+
+  <h2>ANZ Dota 2020: Season 2: LPL PRO</h2>
+
+  <table>
+    <tr>
+      <th>ranks</th>
+      <th>team</th>
+      <th>won</th>
+      <th>lost</th>
+    </tr>
+    <tr>
+      <td>1st</td>
+      <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/254383/Crossfire/">Crossfire</a>
+      </td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2nd</td>
+      <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/256320/Team-Oracle.AU/">Team
+          Oracle.AU</a></td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>3rd</td>
+      <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/254444/Neet-Uprising/">Neet
+          Uprising</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>4th</td>
+      <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/258914/ffyv2/">ffyv2</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>5th</td>
+      <td><a id="table" style="text-decoration:none"
+          href="https://letsplay.live/team/254284/Australian-Gaming-Network/">Australian Gaming Network</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>6th</td>
+      <td><a id="table" style="text-decoration:none"
+          href="https://letsplay.live/team/255617/Internal-Discord/">Internal Discord</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>7th</td>
+      <td><a id="table" style="text-decoration:none" href="https://letsplay.live/team/259085/ToOnz-Reborn/">ToOnz`
+          Reborn</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </table>
 
 
 
-
-
-  <footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-    <body style="height:1500px">
-
-      <nav class="navbar navbar-expand-sm">
-        <a class="navbar-brand" href="https://www.youtube.com/channel/UCaQxBgRC76F_2sGQfp7vZvA"> <img
-            src="https://www.youtube.com/yts/img/yt_1200-vflhSIVnY.png" style="width:70px;height:50px;border:0;"></a>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.twitch.tv/letsplaylive"><img
-                src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mf99747868488af19e29cfdc19ed0d0131582676971447 "
-                style="width:100px;height:46px;border:0;"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/LetsPlayLiveHQ"> <img
-                src="https://lh3.googleusercontent.com/wIf3HtczQDjHzHuu7vezhqNs0zXAG85F7VmP7nhsTxO3OHegrVXlqIh_DWBYi86FTIGk"
-                style="width:60px;height:46px;border:0;"></a>
-          </li>
-        </ul>
-      </nav>
-      created by sam
-  </footer>
+</div>
 
 
 
-  </section>
+<div>
+<footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <body style="height:1500px">
+
+    <nav class="navbar navbar-expand-sm">
+      <a class="navbar-brand" href="https://www.youtube.com/channel/UCaQxBgRC76F_2sGQfp7vZvA"> <img
+          src="https://www.youtube.com/yts/img/yt_1200-vflhSIVnY.png" style="width:70px;height:50px;border:0;"></a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.twitch.tv/letsplaylive"><img
+              src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C980510a3283f8d28dcda12e9dae18079/projects/M2659de2730bea6e5fdbab7c65da0a7771582593435098/images/Mf99747868488af19e29cfdc19ed0d0131582676971447 "
+              style="width:100px;height:46px;border:0;"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/LetsPlayLiveHQ"> <img
+              src="https://lh3.googleusercontent.com/wIf3HtczQDjHzHuu7vezhqNs0zXAG85F7VmP7nhsTxO3OHegrVXlqIh_DWBYi86FTIGk"
+              style="width:60px;height:46px;border:0;"></a>
+        </li>
+      </ul>
+    </nav>
+    created by sam
+</footer>
 
 
 
-  <!-- Optional JavaScript -->
+</section>
 
 
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- Optional JavaScript -->
 
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
 
 
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
 
 
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
 
 </body>
 
 </html>
+
+
+
+
+
