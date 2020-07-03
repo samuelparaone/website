@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html>
 
 <head>
@@ -19,6 +17,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
 
+
+<style>
+
+
+</style>
 </head>
 
 <body>
@@ -64,8 +67,9 @@
 </header>
 
 
-
-<div class="one"> 
+<div class="row">
+<div class="col-4 col-s-4">
+<div class="left">
 
   <a href="https://hsl.letsplay.live/">
     <img width="120" height="60" 
@@ -96,7 +100,11 @@
 
   
 
-</div><div class="two">
+</div>  
+</div>
+ <div class="col-4 col-s-8">
+<div class="right">
+
 
 <video width="300" height="240" controls>
 
@@ -141,9 +149,10 @@
 <br><a href="https://letsplay.live/register/" <button class="btn green">REGISTER NOW</button></a>
 
 </div>
-
-
-<div>
+</div>
+  
+  
+  <div class="col-12 col-s-12">
 <form>
     <select name="users" onchange="showUser(this.value)">
       <option value="">Select a team:</option>
@@ -224,7 +233,7 @@
 
 
 
-<div>
+  <div class="col-12 col-s-12">
 <footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
